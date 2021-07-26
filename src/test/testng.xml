@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="login to application with email">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="com.makemytripapplication.TestMakeMyTrip">
+                <methods>
+                    <include name="loginToApplication_WithEmail_Otp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" name="login to application with mobile number">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="com.makemytripapplication.TestMakeMyTrip">
+                <methods>
+                    <include name="loginToApplication_WithMobileNumber_Otp"/>
+                    <include name="selectDeparture_And_ReturnDate"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" name="login to application with email and password">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="com.makemytripapplication.TestMakeMyTrip">
+                <methods>
+                    <include name="loginToApplication_With_Password"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

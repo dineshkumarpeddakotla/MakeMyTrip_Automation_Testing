@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    implementation 'org.testng:testng:7.1.0'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.4.3'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.31'
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.31'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.10.0'
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.0.0'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.14.0'
+    implementation group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
+    implementation group: 'com.github.stephenc.monte', name: 'monte-screen-recorder', version: '0.7.7.0'
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+    implementation group: 'org.apache.commons', name: 'commons-email', version: '1.5'
+    implementation group: 'javax.mail', name: 'javax.mail-api', version: '1.6.2'
+    implementation group: "com.twilio.sdk", name: "twilio", version: "8.17.0"
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
+    implementation group: 'org.apache.pdfbox', name: 'pdfbox', version: '2.0.24'
+}
+
+test {
+    useTestNG()
+}
