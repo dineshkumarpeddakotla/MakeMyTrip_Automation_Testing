@@ -1,0 +1,238 @@
+[INFO ] 2021-07-29 09:04:04.159 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 09:04:06.361 [Test worker] Log - select browser
+[INFO ] 2021-07-29 09:04:12.532 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 09:04:45.151 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 09:05:05.473 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 09:05:23.958 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 09:05:29.459 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 09:05:53.871 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 09:05:55.417 [Test worker] Log - select browser
+[INFO ] 2021-07-29 09:05:56.620 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 09:06:05.383 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 09:06:14.193 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 09:06:15.862 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 09:06:20.536 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 09:07:51.201 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 09:07:52.747 [Test worker] Log - select browser
+[INFO ] 2021-07-29 09:07:54.128 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 09:07:59.398 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 09:08:16.784 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 09:08:50.522 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 09:08:58.427 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 09:19:02.656 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 09:19:03.609 [Test worker] Log - select browser
+[INFO ] 2021-07-29 09:19:04.233 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 09:19:08.111 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 09:19:18.372 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 09:19:52.355 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 09:19:57.993 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 09:20:06.709 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 09:20:07.694 [Test worker] Log - select browser
+[INFO ] 2021-07-29 09:20:08.631 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 09:20:10.786 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 09:20:23.749 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 09:20:25.773 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 09:20:31.399 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 09:20:57.301 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 09:20:58.207 [Test worker] Log - select browser
+[INFO ] 2021-07-29 09:20:58.769 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 09:21:00.906 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 09:21:57.964 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 09:22:09.145 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 09:22:12.000 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 09:22:44.243 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 09:22:45.102 [Test worker] Log - select browser
+[INFO ] 2021-07-29 09:22:46.023 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 09:22:48.841 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 09:22:58.507 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 09:23:00.483 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 09:23:03.425 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 17:41:19.141 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 17:41:23.718 [Test worker] Log - select browser
+[INFO ] 2021-07-29 17:41:25.265 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 17:41:45.229 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 17:42:17.782 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 17:44:19.067 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 17:44:30.052 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 17:45:06.638 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 17:45:08.153 [Test worker] Log - select browser
+[INFO ] 2021-07-29 17:45:10.590 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 17:45:19.344 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 17:45:35.924 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 17:46:02.908 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 17:46:06.854 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 17:46:21.367 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 17:46:22.273 [Test worker] Log - select browser
+[INFO ] 2021-07-29 17:46:22.897 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 17:46:25.019 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 17:46:39.537 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 17:46:50.651 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 17:46:55.156 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 17:48:53.617 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 17:48:54.960 [Test worker] Log - select browser
+[INFO ] 2021-07-29 17:48:56.022 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 17:49:04.199 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 17:49:19.326 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 17:49:50.804 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 17:50:03.040 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 20:48:08.781 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 20:48:11.999 [Test worker] Log - select browser
+[INFO ] 2021-07-29 20:48:19.091 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 20:49:07.806 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 20:49:48.857 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 20:50:01.736 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 20:50:10.012 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 20:51:29.200 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 20:51:30.106 [Test worker] Log - select browser
+[INFO ] 2021-07-29 20:51:30.746 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 20:52:38.059 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[WARN ] 2021-07-29 20:52:42.249 [Test worker] Log - selectDeparture_And_ReturnDate Test is skipped
+[ERROR] 2021-07-29 20:52:42.249 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 20:52:42.296 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 20:55:33.822 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 20:55:59.332 [Test worker] Log - select browser
+[INFO ] 2021-07-29 20:56:05.518 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 20:57:09.449 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[WARN ] 2021-07-29 20:57:11.545 [Test worker] Log - selectDeparture_And_ReturnDate Test is skipped
+[ERROR] 2021-07-29 20:57:11.550 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 20:57:11.611 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 20:58:14.469 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 20:58:16.031 [Test worker] Log - select browser
+[INFO ] 2021-07-29 20:58:16.640 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 20:58:46.083 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 20:59:19.160 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 20:59:33.802 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 20:59:47.351 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:21:01.161 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:21:02.129 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:21:02.734 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:21:18.720 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:21:44.158 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:21:50.481 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:21:57.526 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:22:30.174 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:22:31.408 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:22:32.424 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:22:41.762 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:22:50.296 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:23:03.369 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:23:06.196 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:23:24.127 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:23:25.440 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:23:26.424 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:23:33.865 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:23:42.872 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:23:55.975 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:23:59.451 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:25:35.774 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:25:36.860 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:25:37.922 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:25:46.387 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:25:55.512 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:26:06.785 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:26:11.439 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:26:19.242 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:26:20.179 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:26:20.773 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:26:29.379 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:26:46.956 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:26:58.021 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:27:00.415 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:27:31.767 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:27:32.688 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:27:33.251 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:27:41.308 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:27:51.400 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:28:02.142 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:28:06.292 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:28:22.569 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:28:23.491 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:28:24.069 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:28:32.948 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:28:43.237 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:28:43.630 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:28:43.896 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:29:25.230 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:29:26.218 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:29:26.830 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:29:41.505 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:29:52.852 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:30:04.637 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:30:04.912 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:31:44.398 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:31:45.393 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:31:46.339 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:31:55.003 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:32:03.734 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:32:16.019 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:32:16.231 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:34:47.911 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:34:48.867 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:34:49.797 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:35:06.569 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:35:16.760 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:35:30.929 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:35:31.133 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:39:53.783 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:39:55.241 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:39:56.213 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:40:09.626 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:40:28.220 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:40:58.044 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:41:04.523 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:43:36.692 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:43:37.758 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:43:38.658 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:43:53.164 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:44:13.233 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:44:41.794 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:44:44.249 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:47:12.132 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:47:13.073 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:47:13.770 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 21:47:28.852 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:47:57.884 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:47:58.782 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:47:59.348 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:49:52.726 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:49:53.693 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:50:02.493 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 21:50:18.731 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:50:39.096 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:50:41.145 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:50:46.321 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:50:55.506 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:50:56.397 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:50:56.975 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 21:50:59.032 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:51:23.905 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:51:50.785 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:51:53.741 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:56:04.571 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:56:05.721 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:56:06.823 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 21:56:09.898 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:56:45.540 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:56:47.173 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:56:49.269 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 21:58:02.715 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 21:58:03.670 [Test worker] Log - select browser
+[INFO ] 2021-07-29 21:58:04.275 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 21:58:09.119 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 21:58:19.620 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 21:58:48.294 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 21:58:51.339 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 22:05:19.349 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 22:05:20.349 [Test worker] Log - select browser
+[INFO ] 2021-07-29 22:05:20.958 [Test worker] Log - chrome browser is selected
+[INFO ] 2021-07-29 22:05:28.666 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 22:05:38.878 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 22:06:08.872 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 22:06:13.634 [Test worker] Log - I am in onFinish method Gradle test
+[INFO ] 2021-07-29 22:06:53.298 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 22:06:54.689 [Test worker] Log - select browser
+[INFO ] 2021-07-29 22:07:05.356 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 22:08:06.066 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 22:08:29.247 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+[ERROR] 2021-07-29 22:09:04.057 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[INFO ] 2021-07-29 22:09:13.392 [Test worker] Log - I am in onFinish method Gradle test
