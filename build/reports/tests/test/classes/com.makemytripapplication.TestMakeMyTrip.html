@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">13.975s</div>
+<div class="counter">34.778s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,16 +76,15 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="selectDeparture_And_ReturnDate[0](20/August/2021, 25/August/2021, 20 Aug 2021, 27 Aug 2021)"></a>
-<h3 class="failures">selectDeparture_And_ReturnDate[0](20/August/2021, 25/August/2021, 20 Aug 2021, 27 Aug 2021)</h3>
+<a name="selectDeparture_And_ReturnDate[0](1/August/2021, 7/August/2021, 1 Aug21, 7 Aug21)"></a>
+<h3 class="failures">selectDeparture_And_ReturnDate[0](1/August/2021, 7/August/2021, 1 Aug21, 7 Aug21)</h3>
 <span class="code">
-<pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=91.0.4472.164)
+<pre>org.openqa.selenium.TimeoutException: TimedPromise timed out after 20000 ms
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DINNU', ip: '192.168.43.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\dinnu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6586a86349880e3a5b3168dc3aace6a5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210721174149, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 15232, moz:profile: C:\Users\dinnu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8c05cf2-c2f1-4c3f-adf8-1521158577b8
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,10 +102,9 @@ Session ID: 6586a86349880e3a5b3168dc3aace6a5
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy41.click(Unknown Source)
-	at com.makemytripapplication.pages.HomePage.selectDate(HomePage.java:68)
-	at com.makemytripapplication.pages.HomePage.returnDate(HomePage.java:44)
-	at com.makemytripapplication.TestMakeMyTrip.selectDeparture_And_ReturnDate(TestMakeMyTrip.java:59)
+	at com.sun.proxy.$Proxy45.click(Unknown Source)
+	at com.makemytripapplication.pages.HomePage.clickSearch(HomePage.java:72)
+	at com.makemytripapplication.TestMakeMyTrip.selectDeparture_And_ReturnDate(TestMakeMyTrip.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,8 +173,8 @@ Session ID: 6586a86349880e3a5b3168dc3aace6a5
 </tr>
 </thead>
 <tr>
-<td class="failures">selectDeparture_And_ReturnDate[0](20/August/2021, 25/August/2021, 20 Aug 2021, 27 Aug 2021)</td>
-<td class="failures">13.975s</td>
+<td class="failures">selectDeparture_And_ReturnDate[0](1/August/2021, 7/August/2021, 1 Aug21, 7 Aug21)</td>
+<td class="failures">34.778s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -184,31 +182,43 @@ Session ID: 6586a86349880e3a5b3168dc3aace6a5
 <div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>[INFO ] 2021-07-26 13:50:40.816 [Test worker] Log - Internet is connected
-[INFO ] 2021-07-26 13:50:43.409 [Test worker] Log - select browser
-[INFO ] 2021-07-26 13:50:44.784 [Test worker] Log - chrome browser is selected
-[INFO ] 2021-07-26 13:50:51.711 [Test worker] Log - navigate to url :https://www.makemytrip.com/
-[INFO ] 2021-07-26 13:51:08.547 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
+<pre>[INFO ] 2021-07-29 22:06:53.298 [Test worker] Log - Internet is connected
+[INFO ] 2021-07-29 22:06:54.689 [Test worker] Log - select browser
+[INFO ] 2021-07-29 22:07:05.356 [Test worker] Log - firefox browser is selected
+[INFO ] 2021-07-29 22:08:06.066 [Test worker] Log - navigate to url :https://www.makemytrip.com/
+[INFO ] 2021-07-29 22:08:29.247 [Test worker] Log - selectDeparture_And_ReturnDate test is starting.
 Directory already exists: C:\Users\dinnu\Testing\MakeMyTripAutomationTesting\testReport
-20/August/2021
-25/August/2021
+1/August/2021
+July 2021
+August 2021
+August2021
 Method failed selectDeparture_And_ReturnDate
-[ERROR] 2021-07-26 13:51:22.561 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
-[20/August/2021, 25/August/2021, 20 Aug 2021, 27 Aug 2021]
+[ERROR] 2021-07-29 22:09:04.057 [Test worker] Log - selectDeparture_And_ReturnDate Test is failed
+[1/August/2021, 7/August/2021, 1 Aug21, 7 Aug21]
 </pre>
 </span>
 </div>
 <div id="tab3" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
-[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dinnu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 20449
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 26, 2021 1:50:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+<pre>[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.29.0 (resolved driver for Firefox 90)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\dinnu\.cache\selenium\geckodriver\win64\0.29.0\geckodriver.exe
+1627576626410	geckodriver	INFO	Listening on 127.0.0.1:25998
+1627576627237	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dinnu\\AppData\\Local\\Temp\\rust_mozprofilefjIfOq&quot;
+1627576642651	Marionette	INFO	Marionette enabled
+[Parent 15232, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\dinnu\\AppData\\Local\\Temp\\rust_mozprofilefjIfOq\\search.json.mozlz4&quot;, (void 0)))
+console.error: Region.jsm: &quot;Error fetching region&quot; (new Error(&quot;TIMEOUT&quot;, &quot;resource://gre/modules/Region.jsm&quot;, 772))
+console.error: Region.jsm: &quot;Failed to fetch region&quot; (new Error(&quot;TIMEOUT&quot;, &quot;resource://gre/modules/Region.jsm&quot;, 419))
+1627576685049	Marionette	INFO	Listening on port 56881
+1627576685717	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 29, 2021 10:08:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+1627576710401	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627576738359	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627576746249	Marionette	INFO	Stopped listening on port 56881
+[Parent 15232, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 15232, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 </pre>
 </span>
 </div>
@@ -220,7 +230,7 @@ INFO: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8</a> at 26-Jul-2021, 1:51:28 PM</p>
+<a href="http://www.gradle.org">Gradle 6.8</a> at 29-Jul-2021, 10:09:14 PM</p>
 </div>
 </div>
 </body>

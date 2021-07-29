@@ -37,14 +37,14 @@ public class TestListener implements ITestListener {
         Log.info(result.getName() + " test is starting.");
         ExtentTestManager.startTest(result.getMethod().getMethodName());
 
-        ScreeRecording.startRecording(result.getName());
+//        ScreeRecording.startRecording(result.getName());
     }
 
     public void onFinish(ITestContext testContext) {
         Log.info("I am in onFinish method " + testContext.getName());
         ExtentTestManager.endTest();
         ExtentManager.getInstance().flush();
-        ScreeRecording.stopRecording();
+//        ScreeRecording.stopRecording();
     }
 
     /**

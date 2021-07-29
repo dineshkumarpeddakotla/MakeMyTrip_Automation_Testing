@@ -58,19 +58,19 @@ public class BaseClass {
     @Description("setUp method is used to open browser and navigate to url before test")
     @Parameters("browserName")
     @BeforeMethod//execute before test
-    public void setUp(@Optional("chrome") String browserName) {
+    public void setUp(@Optional("firefox") String browserName) {
 
         Log.info("select browser");
         driver = CrossBrowser.selectDriver(browserName);
         Log.info("navigate to url :" + IConstants.URL);
         driver.get(IConstants.URL);
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     //tearDown method closes all connections
-//    @AfterMethod//execute after test
+    @AfterMethod//execute after test
     @Description("tearDown method closes all connections and browser")
     public void tearDown() {
         driver.quit();
