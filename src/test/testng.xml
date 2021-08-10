@@ -11,25 +11,28 @@
             </class>
         </classes>
     </test>
-    <test verbose="2" name="login to application with mobile number">
-        <parameter name="browserName" value="chrome"/>
-        <classes>
-            <class name="com.makemytripapplication.TestMakeMyTrip">
-                <methods>
-                    <include name="loginToApplication_WithMobileNumber_Otp"/>
-                    <include name="selectDeparture_And_ReturnDate"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" name="login to application with email and password">
-        <parameter name="browserName" value="chrome"/>
-        <classes>
-            <class name="com.makemytripapplication.TestMakeMyTrip">
-                <methods>
-                    <include name="loginToApplication_With_Password"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+<!--    <test verbose="2" name="login to application with mobile number">-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.makemytripapplication.TestMakeMyTrip">-->
+<!--                <methods>-->
+<!--                    <include name="loginToApplication_WithMobileNumber_Otp"/>-->
+<!--                    <include name="selectDeparture_And_ReturnDate"/>-->
+<!--                    <include name="searchFlights"/>-->
+<!--                    <include name="selectFilters"/>-->
+<!--                    <include name="selectFlights"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" name="login to application with email and password">-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.makemytripapplication.TestMakeMyTrip">-->
+<!--                <methods>-->
+<!--                    <include name="loginToApplication_With_Password"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

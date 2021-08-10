@@ -30,7 +30,7 @@ public class MailUtil {
         String[] to = {RECIPIENT}; // list of recipient mail addresses
         String subject = "Test Report";
         String body = "Flipkart Testing Report";
-        String reportPath = "C:\\Users\\dinnu\\Testing\\FlipkartAutomationTesting\\TestReport\\flipkartTestingReport.html";
+        String reportPath = "C:\\Users\\dinnu\\Testing\\MakeMyTripAutomationTesting\\testReport\\makeMyTripTestingReport.html";
 
         sendFromGMail(to, subject, body, reportPath);
     }

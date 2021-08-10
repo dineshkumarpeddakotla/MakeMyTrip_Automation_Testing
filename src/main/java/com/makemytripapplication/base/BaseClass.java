@@ -25,7 +25,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.sql.Connection;
 import java.sql.Statement;
-import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
     //driver variable is declared
@@ -57,29 +56,28 @@ public class BaseClass {
      */
     @Description("setUp method is used to open browser and navigate to url before test")
     @Parameters("browserName")
-    @BeforeMethod//execute before test
-    public void setUp(@Optional("firefox") String browserName) {
+    @BeforeTest//execute before test
+    public void setUp(@Optional("chrome") String browserName) throws InterruptedException {
 
         Log.info("select browser");
         driver = CrossBrowser.selectDriver(browserName);
         Log.info("navigate to url :" + IConstants.URL);
         driver.get(IConstants.URL);
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       Thread.sleep(5000);
     }
 
     //tearDown method closes all connections
-    @AfterMethod//execute after test
+    @AfterTest//execute after test
     @Description("tearDown method closes all connections and browser")
     public void tearDown() {
         driver.quit();
     }
 
-//    @AfterSuite
-//    @Description("send reports to mail after the suite")
-//    public void sendReports() {
-//        MailUtil.sendMail();
-//        Log.info("send reports to email");
-//    }
+    @AfterSuite
+    @Description("send reports to mail after the suite")
+    public void sendReports() {
+        MailUtil.sendMail();
+        Log.info("send reports to email");
+    }
 }

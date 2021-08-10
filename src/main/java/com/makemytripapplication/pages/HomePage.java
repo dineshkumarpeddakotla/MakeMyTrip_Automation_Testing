@@ -27,7 +27,7 @@ public class HomePage extends BaseClass {
     WebElement departureDate;
     @FindBy(xpath = "//label[@for='return']/p[1]")
     WebElement returnDateValue;
-    @FindBy(xpath = "//a[@class='primaryBtn font24 latoBold widgetSearchBtn ']")
+    @FindBy(xpath = "//a[contains(text(),'Search')]")
     WebElement search;
     @FindBy(xpath = "//span[contains(text(),'From')]")
     WebElement fromCity;
@@ -45,7 +45,7 @@ public class HomePage extends BaseClass {
     List<WebElement> imgList;
     @FindBy(xpath = "//ul[@class='specialFare']/li[3]")
     WebElement studentsFare;
-    @FindBy(xpath = "//ul[@class='specialFare']/li[3]/div/p[2]")
+    @FindBy(xpath = "//ul[@class='specialFare']/li[3]/div")
     WebElement studentsFareToolTip;
 
     String flag;
@@ -68,11 +68,14 @@ public class HomePage extends BaseClass {
         setSelectCity("Bengaluru");
     }
 
-    public void clickSearch() {
+    public String clickSearch() throws InterruptedException {
         search.click();
+        Thread.sleep(5000);
+
+        return driver.getCurrentUrl();
     }
 
-    public String selectDepartureDate(String date) {
+    public String selectDepartureDate(String date) throws InterruptedException {
         departure.click();
         System.out.println(date);
         String[] dateFormat = date.split("/");
@@ -81,11 +84,12 @@ public class HomePage extends BaseClass {
         String year = dateFormat[2];
         String monthYear = month + " " + year;
         selectDate(day, monthYear);
+        Thread.sleep(1500);
 
         return departureDate.getText();
     }
 
-    public String returnDate(String date) {
+    public String returnDate(String date) throws InterruptedException {
         returnDate.click();
         String[] dateFormat = date.split("/");
         String day = dateFormat[0];
@@ -93,6 +97,8 @@ public class HomePage extends BaseClass {
         String year = dateFormat[2];
         String monthYear = month + "" + year;
         selectDate(day, monthYear);
+        Thread.sleep(1500);
+
         return returnDateValue.getText();
     }
 
@@ -101,6 +107,7 @@ public class HomePage extends BaseClass {
         while (flag.equals("false")) {
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             System.out.println(dayPickerMonth.getText());
+            System.out.println(monthYear);
             if (dayPickerMonth.getText().equals(monthYear)) {
                 for (WebElement day1 : dayPickerBody1) {
                     if (day1.getText().equals(day)) {
@@ -123,7 +130,7 @@ public class HomePage extends BaseClass {
     public String getToolTip() throws InterruptedException {
         Actions actions = new Actions(driver);
         actions.moveToElement(studentsFare).perform();
-        Thread.sleep(500);
+        Thread.sleep(100);
         
         return studentsFareToolTip.getText();
     }

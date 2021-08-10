@@ -10,7 +10,7 @@ import java.util.stream.StreamSupport;
 public class ReadMobileOtp {
 
     private static final String ACCOUNT_SID = "ACc22a4d39915b91fc33e12b3fe5cc120e";
-    private static final String AUTH_TOKEN = "046bed538d0e386251d52229c6d2383d";
+    private static final String AUTH_TOKEN = "a888750a9bd323754e77f01c88c1dec9";
 
     public static String readOTP() {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
